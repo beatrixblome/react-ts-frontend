@@ -27,7 +27,7 @@ const routing = (
         {/* <Route exact path="/FQA" component={FQA} /> */}
         <Route exact path="/login" component={Login} />
         <Route exact path="/signup" component={SubmitPage} />
-        <Redirect to="/404" />
+        {/* <Redirect to="/404" /> */}
           </Switch>
       </div>
   </Router>
