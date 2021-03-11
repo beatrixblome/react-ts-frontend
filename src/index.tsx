@@ -18,9 +18,9 @@ const routing = (
   <Router>
       <Header />
       <div className="page">
-          <Switch>
-              <Route exact path="/" component={App} />
-              <Route exact path="/homepage" component={HomePage} />
+        <Switch>
+        <Route exact path="/landingpage" component={App} />
+        <Route exact path="/homepage" component={HomePage} />
         <Route exact path="/landingpage" component={LandingPage} />
         <Route exact path="/posts" component={PostPage} />
         <Route exact path="/post-detail" component={PostDetail} />
